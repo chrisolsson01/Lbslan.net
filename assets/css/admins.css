@@ -1,0 +1,70 @@
+
+
+/* .p1 {
+    background: url('https://scontent.fbma3-1.fna.fbcdn.net/v/t1.0-9/27067328_1559083794177280_6665038039831387751_n.jpg?_nc_cat=101&_nc_ht=scontent.fbma3-1.fna&oh=3ceccf40bc975a848a2fdf1eca5ddd09&oe=5D06F20E') center;
+}
+
+.p2 {
+    background: url('https://scontent.fbma3-1.fna.fbcdn.net/v/t1.0-9/37081866_1265671823563530_3033769914969096192_n.jpg?_nc_cat=109&_nc_ht=scontent.fbma3-1.fna&oh=7cea44cb680100b8c818fad11420d9b6&oe=5D180039') center;
+}
+
+.p3 {
+    background: url('https://scontent.fbma3-1.fna.fbcdn.net/v/t1.0-9/46753123_2174781259446817_7160324211783761920_n.jpg?_nc_cat=106&_nc_ht=scontent.fbma3-1.fna&oh=2b551d9ccbb6ca89105caf40d075229e&oe=5D21EC7A') center;
+}
+
+.p4 {
+    background: url('https://scontent.fbma3-1.fna.fbcdn.net/v/t1.0-9/13620864_1369163399780375_5783781652734464572_n.jpg?_nc_cat=109&_nc_ht=scontent.fbma3-1.fna&oh=267766d705bd7e5b8d006b02106a8a14&oe=5D1D352B') center;
+}
+
+.p5 {
+    background: url('https://scontent.fbma3-1.fna.fbcdn.net/v/t1.0-9/18485712_640411412824423_3954889737481218084_n.jpg?_nc_cat=101&_nc_ht=scontent.fbma3-1.fna&oh=6807e766dfd5916e11ae2fec4ec86d21&oe=5D028659') center;
+}
+
+.p6 {
+    background: url('https://scontent.fbma3-1.fna.fbcdn.net/v/t1.0-9/43137297_2194669887475466_479366252003852288_n.jpg?_nc_cat=111&_nc_ht=scontent.fbma3-1.fna&oh=f2a2220187717ce447352576ed40e36d&oe=5D132F02') center;
+}
+
+.p7 {
+    background: url('https://scontent.fbma3-1.fna.fbcdn.net/v/t1.0-1/p50x50/31453919_923175304526854_753302191604073481_n.jpg?_nc_cat=108&_nc_ht=scontent.fbma3-1.fna&oh=51bed6e37896d8ff6b8266060525c259&oe=5D0560E7') center;
+}
+
+.p8 {
+    background: url('/assets/img/image0.jpg') center;
+}   
+
+.p9 {
+    background: url('https://scontent.fbma3-1.fna.fbcdn.net/v/t1.0-1/c15.0.50.50a/p50x50/10354686_10150004552801856_220367501106153455_n.jpg?_nc_cat=1&_nc_ht=scontent.fbma3-1.fna&oh=6b5d29d9dbd894f90ed3a90ed9049da3&oe=5D05B7E8') center;
+} */
+
+.p1,
+.p2,
+.p3,
+.p4,
+.p5,
+.p6,
+.p7,
+.p8 {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 10%;
+    flex: left;
+    padding: 5px;
+}
+
+.p9 {
+    background-size: contain;
+    background-position: 50% 30%;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.row {
+    height: 500px;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+}

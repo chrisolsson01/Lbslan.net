@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="LBS Borås LAN Kommitté">
+    <meta name="keywords" content="LBS,LBS Borås,LBS LAN,LBS Borås LAN,LBS LAN Borås,LAN Borås,Borås LAN">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LBS Bor&aring;s LAN Kommitté</title>
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/navbar.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/admins.css">
+    <!-- <link rel="stylesheet" href="assets/glider/docs/assets/css/prism.css" />
+    <link rel="stylesheet" type="text/css" href="assets/glider/glider.css"> -->
+    <link rel="stylesheet" href="assets/glider/docs/assets/css/main.css">
+    <script src="assets/js/navbar.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Add smooth scrolling to all links
+            $("a").on('click', function (event) {
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function () {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="background" id="background">
+
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void()" class="closebtn" onclick="closeNav()">&times;</a>
+            <li class="animate"><a href="#">Home</a></li>
+            <li class="animate"><a href="#register">Register</a></li>
+            <li class="animate"><a href="#">Schedule</a></li>
+            <li class="animate"><a href="#">Tournaments</a></li>
+            <li class="animate"><a href="#">Contact</a></li>
+            <li class="animate"><a target="_blank"
+                    href="https://drive.google.com/drive/folders/1HNBdoM-5w7xGzxICKeJjooc0onRDQ5Ai?usp=sharing">Download
+                    IP Config</a></li>
+        </div>
+
+        <div class="navbar" id="main">
+            <ul>
+                <li class="slide-btn"><span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+                </li>
+                <li class="brand">
+                    <div><span style="color:rgb(212, 212, 212)">LBS Bor&aring;s </span>LAN Kommitt&eacute;</div>
+                </li>
+                <div class="nav">
+                    <li><a target="_blank"
+                            href="https://drive.google.com/drive/folders/1HNBdoM-5w7xGzxICKeJjooc0onRDQ5Ai?usp=sharing">Download
+                            IP Config</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#info">Tournaments</a></li>
+                    <li><a href="#info">Schedule</a></li>
+                    <li><a href="#register">Register</a></li>
+                    <li><a href="#">Home</a></li>
+                </div>
+            </ul>
+        </div>
+        <div class="TextOnImage">
+            <h1>Ljud & Bildskolan Borås LAN</h1>
+        </div>
+        <div class="ShowMore">
+            <p><a href="#info">Show More</a></p>
+            <i class="arrow-down"></i>
+        </div>
+    </div>
+    <section class="info" id="info">
+
+        <ul class="flex cards">
+            <li>
+                <h2>Upcomming LAN</h2>
+                <p>5 - 7 April<br>18.30 - 12.00<br>Brygghuset Bor&aring;s<br><br>
+                    Bryggaregatan 14, 503 38 Borås
+                </p>
+            </li>
+            <li>
+                <h2>Tournaments</h2>
+                <p><B>Super Smash Bros</B> Fredag 20.30 - 22.00
+                    <br><B>Overwatch</B> Lördag 17.00 - 19.00
+                    <br><B>Hearthstone</B> Lördag 19.10 - 21.00
+                </p>
+            </li>
+            <li>
+                <h2>Schedule</h2>
+                <p><span style="font-weight: 700">Movies:</span>
+                    <br>How To Train Your Dragon 1
+                    <br>How To Train Your Dragon 2
+                    <br>How To Train Your Dragon 3
+                    <br>Bohemian Rhapsody
+                    <br>A Star Is Born
+                </p>
+            </li>
+            <li>
+                <h2>Admins</h2>
+                <p>Contacts:
+                    <br><a href="">Liam Olsson</a>
+                    <br><a href="">Anna Magnusson</a>
+                    <br><a href="">Sara Weiershäuser</a>
+                    <br><a href="">Gabriel Nilsson</a>
+                </p>
+            </li>
+            <li>
+                <h2>About</h2>
+                <p>
+                    LBS Borås LAN Kommitté is an independent group of students that organize LAN events for LBS Borås.
+                    We are not associated
+                    with LBS, for further information contact: liamolsson2001@gmail.com <br>Text by: Maxfrans
+                    <br>
+                    <B>Other info:</B>
+                    <br><a target="_blank" href="assets/pdf/Info.pdf">Download Info</a>
+                    <br><a target="_blank" href="assets/pdf/Information.pdf">Download Info</a>
+                    <!-- <br><a target="_blank" href="https://drive.google.com/drive/folders/1HNBdoM-5w7xGzxICKeJjooc0onRDQ5Ai?usp=sharing">Download IP Config</a> -->
+                </p>
+            </li>
+
+        </ul>
+
+    </section>
+
+    <section class="admin">
+        <div class="paralax"></div>
+        <div class="admin-text">
+            <h1>Meet the Team</h1>
+        </div>
+        <div class="meet-the-team">
+            <div class="team-showcase">
+                <div>
+                    <div class="">
+                        <div class="row">
+                            <h1>Anna Magnusson</h1>
+                            <img class="p2"
+                                src="https://scontent.fbma3-1.fna.fbcdn.net/v/t1.0-9/37081866_1265671823563530_3033769914969096192_n.jpg?_nc_cat=109&_nc_ht=scontent.fbma3-1.fna&oh=7cea44cb680100b8c818fad11420d9b6&oe=5D180039">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="">
+                        <div class="row">
+                            <h1>Gabriel Nilsson</h1>
+                            <img class="p4"
+                                src="https://scontent.fbma3-1.fna.fbcdn.net/v/t1.0-9/13620864_1369163399780375_5783781652734464572_n.jpg?_nc_cat=109&_nc_ht=scontent.fbma3-1.fna&oh=267766d705bd7e5b8d006b02106a8a14&oe=5D1D352B">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="">
+                        <div class="row">
+                            <h1>Oliver Udiljak</h1>
+                            <img class="p6"
+                                src="https://scontent.fbma3-1.fna.fbcdn.net/v/t1.0-9/43137297_2194669887475466_479366252003852288_n.jpg?_nc_cat=111&_nc_ht=scontent.fbma3-1.fna&oh=f2a2220187717ce447352576ed40e36d&oe=5D132F02">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="">
+                        <div class="row">
+                            <h1>Liam Olsson</h1>
+                            <img class="p1"
+                                src="https://scontent.fbma3-1.fna.fbcdn.net/v/t1.0-9/27067328_1559083794177280_6665038039831387751_n.jpg?_nc_cat=101&_nc_ht=scontent.fbma3-1.fna&oh=3ceccf40bc975a848a2fdf1eca5ddd09&oe=5D06F20E">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="">
+                        <div class="row">
+                            <h1>Carl Merelid</h1>
+                            <img class="p9"
+                                src="https://scontent.fbma3-1.fna.fbcdn.net/v/t1.0-1/c15.0.50.50a/p50x50/10354686_10150004552801856_220367501106153455_n.jpg?_nc_cat=1&_nc_ht=scontent.fbma3-1.fna&oh=6b5d29d9dbd894f90ed3a90ed9049da3&oe=5D05B7E8">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="">
+                        <div class="row">
+                            <h1>Sara Weiershäuser</h1>
+                            <img class="p3"
+                                src="https://scontent.fbma3-1.fna.fbcdn.net/v/t1.0-9/46753123_2174781259446817_7160324211783761920_n.jpg?_nc_cat=106&_nc_ht=scontent.fbma3-1.fna&oh=2b551d9ccbb6ca89105caf40d075229e&oe=5D21EC7A">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="">
+                        <div class="row">
+                            <h1>Erik Neuman</h1>
+                            <img class="p5"
+                                src="https://scontent.fbma3-1.fna.fbcdn.net/v/t1.0-9/18485712_640411412824423_3954889737481218084_n.jpg?_nc_cat=101&_nc_ht=scontent.fbma3-1.fna&oh=6807e766dfd5916e11ae2fec4ec86d21&oe=5D028659">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="">
+                        <div class="row">
+                            <h1>Petrus Johansson</h1>
+                            <img class="p7"
+                                src="https://scontent.fbma3-1.fna.fbcdn.net/v/t1.0-1/p50x50/31453919_923175304526854_753302191604073481_n.jpg?_nc_cat=108&_nc_ht=scontent.fbma3-1.fna&oh=51bed6e37896d8ff6b8266060525c259&oe=5D0560E7">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="">
+                        <div class="row">
+                            <h1>Maxfrans 007</h1>
+                            <img class="p8" src="assets/img/image0.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script>
+                window.addEventListener('load', function () {
+                    window.glides = new Glider(document.getElementById('glider-persp'), {
+                        slidesToShow: 5,
+                        slidesToScroll: 1,
+                        draggable: true,
+                        automatic: true,
+                        dots: '#dots-per',
+                        arrows: {
+                            prev: '#glider-prev-per',
+                            next: '#glider-next-per'
+                        },
+                        responsive: [{
+                            // screens greater than >= 775px
+                            breakpoint: 775,
+                            settings: {
+                                // Set to `auto` and provide item width to adjust to viewport
+                                slidesToShow: 'auto',
+                                slidesToScroll: 'auto',
+                                itemWidth: 150,
+                                duration: 0.25
+                            }
+                        }, {
+                            // screens greater than >= 1024px
+                            breakpoint: 1024,
+                            settings: {
+                                slidesToShow: 5,
+                                slidesToScroll: 1,
+                                itemWidth: 150,
+                                duration: 0.25
+                            }
+                        }, {
+                            breakpoint: 500,
+                            settings: {
+                                slidesToShow: 'auto',
+                                slidesToScroll: 'auto',
+                                itemWidth: 150,
+                                duration: 0.25
+                            }
+                        }]
+                    })
+                });
+            </script>
+        </div>
+        </div>
+        <script>
+
+        </script>
+    </section>
+
+    <section class="register" id="register">
+        <div class="register-now">
+            <!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSflWx77q_JLeLFi1aWWOAjoSlLyFXC2KuZRKizB4caZGnkKgA/viewform?embedded=true" height="700" frameborder="0" marginheight="100" marginwidth="0">Loading...</iframe>
+                 --><iframe src="https://discordapp.com/widget?id=563342539650891816&theme=light" width="350"
+                height="500" allowtransparency="true" frameborder="0"></iframe>
+            <!--<form name="contact" method="POST" data-netlify="true">
+                <p>
+                    <label>Your Name: <input type="text" name="name" /></label>
+                </p>
+                <p>
+                    <label>Your Email: <input type="email" name="email" /></label>
+                </p>
+                <p>
+                    <label>Phonenumber <input type="tel" name="telephone" /></label>
+                </p>
+                <p>
+                    <label>Your class<select name="role[]">
+                            <option value="SU16">SU16</option>
+                            <option value="SU17">SU17</option>
+                            <option value="SU18">SU18</option>
+                            <option value="SY17">SY17</option>
+                            <option value="SY18">SY18</option>
+                            <option value="AR16">AR16</option>
+                            <option value="AR17">AR17</option>
+                            <option value="SG16">SG16</option>
+                            <option value="SG17">SG17</option>
+                            <option value="SG18">SG18</option>
+                            <option value="ME17">ME17</option>
+                            <option value="ME18">ME18</option>
+                            <option value="MU16">MU16</option>
+                            <option value="MU17">MU17</option>
+                            <option value="MU18">MU18</option>
+                            <option value="TEACHER">L&auml;rare</option>
+                        </select></label>
+                </p>
+                <p>
+                    <label>Do you need a computer place?<select name="computer[]">
+                            <option value="YES">Yes</option>
+                            <option value="NO">No</option>
+                        </select></label>
+                </p>
+                <p>
+                    <label>I understand that i will need to pay 50kr at arrival<select name="payment[]">
+                            <option value="YES">Yes</option>
+                        </select></label>
+                </p>
+                <p>
+                    <label>I agree that my personal information will be handled by LBS LAN Kommitt&eacute; under GDPR
+                        Data Protection Regulation<select name="payment[]">
+                            <option value="YES">Yes</option>
+                        </select></label>
+                </p>
+                <p>
+                    <button type="submit">Send</button>
+                </p>
+            </form>
+        </div>-->
+    </section>
+    <section class="footer">
+        <div class="footer-about">
+            <h1>&copy;LBS Bor&aring;s LAN Kommitt&eacute;</h1>
+            <p>Facebook: <a href="https://www.facebook.com/LBSBORASLAN/">LBS Borås LAN</a></p>
+        </div>
+    </section>
+
+    <script src="assets/glider/glider.js"></script>
+</body>
+
+</html>
